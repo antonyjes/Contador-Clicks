@@ -3,7 +3,7 @@ import '../styles/Boton.css';
 
 function Boton({ texto, esbotondeClick, manejarClick }) {
   return (
-    <button className={esbotondeClick ? "boton-click" : "boton-reiniciar"}
+    <button className={`boton-${texto.toLowerCase()}`}
     onClick={manejarClick}>
       {texto}
     </button>

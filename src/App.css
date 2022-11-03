@@ -31,7 +31,7 @@ body {
 }
 
 .contenedor-principal {
-  height: 550px;
+  height: 700px;
   min-width: 600px;
   display: flex;
   flex-wrap: wrap;
